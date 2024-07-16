@@ -1,0 +1,39 @@
+.explore-menu
+{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.explore-menu h1{
+font-weight: bold;
+margin-left: 500px;
+margin-bottom: 50px;
+color:  rgb(26, 90, 26);
+}
+.menu-list
+{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  overflow-x: scroll;
+}
+.menu-list::-webkit-scrollbar{
+    display: none;
+}
+.menu-list-item p{
+    font-size: 20px;
+   
+}
+.menu-list-item img{
+    width: 9.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.menu-list .active
+{
+    border: 4.5px solid  rgb(26, 90, 26);
+    padding:4px;
+    border-radius: 70px;
+}

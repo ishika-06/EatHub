@@ -1,0 +1,40 @@
+.header
+{
+    display: flex;
+    height: 32vw;
+    justify-content: space-between;
+    background: url('/mainbg.png');
+    background-size: contain;
+    position: relative;
+}
+
+.header-content
+{
+   color: white;
+   margin-top: 180px;
+   display: flex;
+   margin-left: 120px;
+   flex-direction: column;
+   align-items: start;
+   gap: 1.5vw;
+   max-width: 50%;
+  
+}
+.header-content h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+.header-content p{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.header-content .btn
+{
+    padding: 12px 30px;
+    background-color:  rgb(75, 119, 75);
+    color:white;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+}
